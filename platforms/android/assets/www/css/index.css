@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/*通用reset*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, cite, img, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul, li {list-style: none;}
+blockquote {quotes: none;}
+blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
+table {border-collapse: collapse; border-spacing: 0;}
+a {outline: none; text-decoration: none;}
+.clear {clear: both;}
+body {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select:none;
+}
+textarea,input,a{
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*移动端style*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -ms-touch-action: none;
+}
+
+
+
+
+
+
+/*ui_style*/
+
+.ui-mobile .ui-page {
+    min-height: 300px;
+    background: #15b7c7;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+	font-size: 2em;
+	min-height: 1.1em;
+	text-align: center;
+	display: block;
+	/*margin: 0 30%;*/
+	padding: .7em 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: 0 !important;
+
+    letter-spacing: 2px;
+}
+
+
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #fff; /*{a-bar-background-color}*/;
+    border-color: #ddd; /*{a-bar-border}*/;
+    border:none;
+    color: #fff; /*{a-bar-color}*/;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#header-bg{background:#15b7c7;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-content {
+    border-width: 0;
+    overflow: visible;
+    overflow-x: hidden;
+    padding: 1em;
+    border-radius:10px;
+    background: #fff;
+    margin:0 10px;
+}
+
+
+
+
+
+
+
+
+
+.ui-listview, .ui-listview > li {
+	margin: 50px;
+	padding: 0;
+	list-style: none;
+}
+
+
+.ui-listview > .ui-li-has-thumb > .ui-btn, .ui-listview > .ui-li-static.ui-li-has-thumb {
+    min-height: 3.625em;
+/* padding-left: 6.25em; */
+}
+
+
+
+.gtgame_index_list{padding-top:50px;}
+
+.gtgame_index_list .ui-icon-carat-r:after {
+background-image:none;
+right: 999999.5625em;
+}
+
+.gtgame_index_list li .ui-btn{
+    background-color: #fff ;
+    border-color: #fff;
+    color: #fff;
+    text-shadow: 0; 
+}
+    
+
+
+
+
+
+.ui-footer{
+    /*position:fixed ;*/
+/*    width:100% ;
+    left:0px;
+    bottom:0px;*/
+}
+.ui-footer .ui-navbar .ui-btn {
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 80px;
+    font-size:36px;
+    line-height: 36px;
+}
+
+
+
+
+
+.ui-grid-c > .ui-block-a, .ui-grid-c > .ui-block-b, .ui-grid-c > .ui-block-c, .ui-grid-c > .ui-block-d {
+    width: 24%;
+    margin: 4px;
+}
+
+
+.ui-navbar li{
+    position: relative;
+}
+
+.ui-navbar li img{
+    position: absolute;
+    top:10px;
+    left:2px;
+}
+.ui-navbar li span{
+    position: absolute;
+    top:10px;
+    /*color:#ababab;*/
+    font-size: 32px;
+    line-height:60px;
+    left:62px;
+}
+.ui-navbar .footer_section1{background: #6cd5e0;}
+.ui-navbar .footer_section1 .ui-btn{
+    background-color: #6cd5e0;
+    border: 5px #fff;
+    color:none;
+    text-shadow: 0;
+}
+.ui-navbar .footer_section2{background: #e06c72;}
+.ui-navbar .footer_section2 .ui-btn{
+    background-color: #e06c72;
+    border: 5px #fff;
+    color:none;
+    text-shadow: 0;
+}
+.ui-navbar .footer_section3{background: #8de06c;}
+.ui-navbar .footer_section3 .ui-btn{
+    background-color: #8de06c;
+    border: 5px #fff;
+    color:none;
+    text-shadow: 0;
+}
+.ui-navbar .footer_section4{background: #b36ce0;}
+.ui-navbar .footer_section4 .ui-btn{
+    background-color: #b36ce0;
+    border: 5px #fff;
+    color:none;
+    text-shadow: 0;
+}
+
+
+
+
+
+
+
+
+
+

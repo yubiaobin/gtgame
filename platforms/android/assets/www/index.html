@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<meta name="msapplication-tap-highlight" content="no" />
+<title>GT爱游戏</title>
+
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script  src="js/require.js" defer async="true" data-main="js/main"></script>
+
+
+<style>
+.SLslider-slide-list,.SLslider-prev,.SLslider-next{ 
+    position:absolute;
+    top:0; 
+}
+.SLslider-prev{ left:0;z-index:10; }
+.SLslider-next{ right:0;z-index:10; }
+.SLslider-wrapper{ position:relative;overflow: hidden; }
+
+.SLslider-fade-zIndex1{ z-index: 1 }
+.SLslider-fade-zIndex2{ z-index: 2 }
+
+
+
+/* style */
+.SLslider-marks{
+    position:absolute; 
+    z-index:99; 
+    right:38%; 
+    bottom:-40px; 
+    text-align:right; 
+    background:url(../img/transparent.gif) repeat;
+}
+.SLslider-marks a{ 
+    padding:4px;
+    *padding:0 6px;
+    margin-left:21px;
+    background:#ccc;
+    border-radius:12px;
+    display:inline-block;
+    transition:all .3s ease .1s; 
+    -moz-transition:all .3s ease .1s; 
+    -o-transition:all .3s ease .1s; 
+    -webkit-transition:all .3s ease .1s; 
+    -ms-transition:all .3s ease .1s; 
+}
+.SLslider-marks .SLslider-marks-current{background: #333;}
+
+</style>
+
+</head>
+<body>
+
+
+<div data-role="page">
+
+
+
+
+
+
+    <div data-role="header" id="header-bg">
+        <h1>GT爱游戏</h1>
+    </div><!-- /header -->
+
+
+
+
+
+
+
+
+    <div role="main" class="ui-content">
+
+        <div class="slide-wrap">
+            <ul>
+                <li><img src="images/1.jpg" width="700" height="300" /></li>
+                <li><img src="images/2.jpg" width="700" height="300" /></li>
+                <li><img src="images/3.jpg" width="700" height="300" /></li>
+                <li><img src="images/4.jpg" width="700" height="300" /></li>
+                <li><img src="images/5.jpg" width="700" height="300" /></li>
+            </ul>
+        </div>
+
+
+        <div id="divTip"></div>
+
+
+        <ul data-role="listview" class="gtgame_index_list">
+            <li>
+                <h2>Flappy bird</h2>
+                <p><span>游戏简介：</span>想找虐的看过来，史上最虐心，没有之一。就是这么吊...</p>
+                <a href="#"  data-icon="arrow-r"><img src="footer_icon4.png" alt=""></a>
+            </li>
+
+            <li>
+                <h2>Flappy bird</h2>
+                <p><span>游戏简介：</span>想找虐的看过来，史上最虐心，没有之一。就是这么吊...</p>
+                <a href="#"  data-icon="arrow-r"><img src="footer_icon4.png" alt=""></a>
+            </li>
+
+            <li>
+                <h2>Flappy bird</h2>
+                <p><span>游戏简介：</span>想找虐的看过来，史上最虐心，没有之一。就是这么吊...</p>
+                <a href="#"><img src="footer_icon4.png" alt=""></a>
+            </li>
+
+            <li>
+                <h2>Flappy bird</h2>
+                <p><span>游戏简介：</span>想找虐的看过来，史上最虐心，没有之一。就是这么吊...</p>
+                <a href="#"><img src="footer_icon4.png" alt=""></a>
+            </li>
+
+            <li>
+                <h2>Flappy bird</h2>
+                <p><span>游戏简介：</span>想找虐的看过来，史上最虐心，没有之一。就是这么吊...</p>
+                <a href="#"><img src="footer_icon4.png" alt=""></a>
+            </li>
+
+            <li>
+                <h2>Flappy bird</h2>
+                <p><span>游戏简介：</span>想找虐的看过来，史上最虐心，没有之一。就是这么吊...</p>
+                <a href="#"><img src="footer_icon4.png" alt=""></a>
+            </li>
+        </ul>
+    </div><!-- /content -->
+
+
+
+
+
+
+
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li class="footer_section1">
+                    <a href="#" class="ui-btn-active"><img src="img/footer_icon1.png" alt=""><span>首页</span></a>
+                </li>
+                <li class="footer_section2">
+                    <a href="#"><img src="img/footer_icon2.png" alt=""><span>热门</span></a>
+                </li>
+                <li class="footer_section3">
+                    <a href="#"><img src="img/footer_icon3.png" alt=""><span>分类</span></a>
+                </li>
+                <li class="footer_section4">
+                    <a href="#"><img src="img/footer_icon4.png" alt=""><span>玩过</span></a>
+                </li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+
+
+
+
+
+
+</div><!-- /page -->
+
+
+
+
+
+<!-- <script type="text/javascript" src="cordova.js"></script> -->
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
