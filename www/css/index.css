@@ -101,6 +101,28 @@ html body .ui-group-theme-a .ui-bar-inherit {
 
 
 
+/*首页顶部左侧按钮样式重写*/
+
+.index_hader .ui-btn{
+    background-color: #15b7c7; 
+    border:none;
+    border-radius: none;
+    color: #333;
+    text-shadow: 0;
+}
+.index_hader .ui-btn.ui-btn-active{
+    background-color: #15b7c7;
+    border-color: none;
+    color: #fff;
+    text-shadow: 0 ;
+}
+.index_hader .ui-btn.ui-btn-hover{
+    background-color: #15b7c7;
+    border-color: none;
+    color: #fff;
+    text-shadow: 0 ;
+}
+
 
 
 .ui-page-theme-a .ui-panel-wrapper {
@@ -161,6 +183,7 @@ background-image:none;
 right: 999999.5625em;
 }
 
+/*首页内容列表文字标题样式重写*/
 .gtgame_index_list li .ui-btn{
     background-color: #fff ;
     border-color: #fff;
@@ -170,16 +193,16 @@ right: 999999.5625em;
 .gtgame_index_list li h2{
     text-align:center;
     color:#404040;
-    font-size:24px;
+    font-size:36px;
     font-weight:bold;
 }
 .gtgame_index_list li p{
     color:#808080;
-    font-size:16px;
+    font-size:24px;
 }
 .gtgame_index_list li p span{
     color:#606060;
-    font-size:16px;
+    font-size:24px;
     font-weight:bold;
 }
     
