@@ -85,6 +85,14 @@ html body .ui-group-theme-a .ui-bar-inherit {
 
 
 
+
+.ui-page-theme-a .ui-panel-wrapper {
+    background-color: #15b7c7; 
+    color: #333;
+    text-shadow: 0;
+}
+
+
 /*
 .ui-panel-position-left.ui-panel-display-reveal, .ui-panel-open.ui-panel-position-left {
     background:#000;
@@ -104,7 +112,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
     padding: 1em;
     border-radius:10px;
     background: #fff;
-    margin:0 10px;
+    margin:10px;
 }
 
 
@@ -142,7 +150,45 @@ right: 999999.5625em;
     color: #fff;
     text-shadow: 0; 
 }
+.gtgame_index_list li h2{
+    text-align:center;
+    color:#404040;
+    font-size:24px;
+    font-weight:bold;
+}
+.gtgame_index_list li p{
+    color:#808080;
+    font-size:16px;
+}
+.gtgame_index_list li p span{
+    color:#606060;
+    font-size:16px;
+    font-weight:bold;
+}
     
+
+
+
+
+
+/*首页内容列表图片按钮样式*/
+.gtgame_index_list > li > .ui-btn{
+    min-height: 3.625em;
+    /* padding-left: 6.25em; */
+    height: 280px;
+}
+.ui-listview .ui-li-has-thumb > .ui-btn > .gtgame_index_list_img:first-child{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-height: none;
+    max-width: none;
+}
+
+
+
+
+
 
 
 

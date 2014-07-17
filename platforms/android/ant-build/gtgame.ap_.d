@@ -75,7 +75,6 @@
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/jquery.mobile-1.4.3.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/main.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/require.js \
-/Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/SLslider1.0.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/swipe.min.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/underscore.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/plugins/com.danielcwilson.plugins.googleanalytics \

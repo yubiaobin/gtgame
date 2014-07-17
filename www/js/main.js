@@ -36,41 +36,41 @@ require.config({
 require(['jquery', 'swipeIndex', 'jquery-m','underscore', 'backbone','index'], function (){
 
 	
-/*
+
 	// 定义模型类
-        window.Test = Backbone.Model.extend({
-            default : {
-                content : "haha"
-            }
-        });
+    window.Test = Backbone.Model.extend({
+        default : {
+            content : "haha"
+        }
+    });
 
-        // 创建集合模型类
-        window.TestList = Backbone.Collection.extend({
-            model : Test
-        });
+    // 创建集合模型类
+    window.TestList = Backbone.Collection.extend({
+        model : Test
+    });
 
-        // 向模型添加数据
-        var data = new TestList({
-            content : "hello,backbone!"
-        })
+    // 向模型添加数据
+    var data = new TestList({
+        content : "hello,backbone!"
+    })
 
-        // 创建view对象
-        window.TestView = Backbone.View.extend({
-            el          : $("body"),
-            initialize  : function(){
-                $("#divTip").html(data.models[0].get("content"))
-            } 
-        });
+    // 创建view对象
+    window.TestView = Backbone.View.extend({
+        el          : $("body"),
+        initialize  : function(){
+            $("#divTip").html(data.models[0].get("content"))
+        } 
+    });
 
-        // 实例化View对象
-        window.APP = new TestView;
-*/
+    // 实例化View对象
+    window.APP = new TestView;
+
 
     var bullets = document.getElementById('position').getElementsByTagName('li');
     var banner = Swipe(document.getElementById('mySwipe'), {
         auto: 2000,
         continuous: true,
-        disableScroll:false,
+        disableScroll:true,
         callback: function(pos) {
             var i = bullets.length;
             while (i--) {
@@ -83,7 +83,7 @@ require(['jquery', 'swipeIndex', 'jquery-m','underscore', 'backbone','index'], f
 });
 
 
-require(['jquery'], function($) {
+require(['jquery','index'], function($) {
 
 	app.initialize();
 
