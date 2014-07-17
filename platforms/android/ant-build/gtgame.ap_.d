@@ -24,6 +24,7 @@
 /Users/max/Development/workspace/gtgame/platforms/android/res/drawable-xxhdpi/ic_action_next_item.png \
 /Users/max/Development/workspace/gtgame/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png \
 /Users/max/Development/workspace/gtgame/platforms/android/res/drawable-xxhdpi/ic_action_remove.png \
+/Users/max/Development/workspace/gtgame/platforms/android/res/drawable-xxhdpi/icon.png \
 /Users/max/Development/workspace/gtgame/platforms/android/res/values/strings.xml \
 /Users/max/Development/workspace/gtgame/platforms/android/res/xml/config.xml \
 /Users/max/Development/workspace/gtgame/platforms/android/ant-build/res/drawable/icon.png \

@@ -9,4 +9,10 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+<icon src="platforms/android/res/drawable-ldpi/icon.png" density="ldpi" />
+<icon src="platforms/android/res/drawable-mdpi/icon.png" density="mdpi" />
+<icon src="platforms/android/res/drawable-hdpi/icon.png" density="hdpi" />
+<icon src="platforms/android/res/drawable-xhdpi/icon.png" density="xhdpi" />
+<icon src="platforms/android/res/drawable-xxhdpi/icon.png" density="xxhdpi" />
 </widget>
