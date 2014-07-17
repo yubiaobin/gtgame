@@ -66,7 +66,11 @@ html {
 
 
 
-.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit, 
+html .ui-bar-a .ui-bar-inherit, 
+html .ui-body-a .ui-bar-inherit, 
+html body .ui-group-theme-a .ui-bar-inherit {
     background-color: #fff; /*{a-bar-background-color}*/;
     border-color: #ddd; /*{a-bar-border}*/;
     border:none;
@@ -81,10 +85,12 @@ html {
 
 
 
+/*
+.ui-panel-position-left.ui-panel-display-reveal, .ui-panel-open.ui-panel-position-left {
+    background:#000;
+}
 
-
-
-
+*/
 
 
 
@@ -168,6 +174,17 @@ right: 999999.5625em;
 
 .ui-navbar li{
     position: relative;
+}
+
+
+.gtgame_detail_list > li p {
+    font-size: .75em;
+    font-weight: normal;
+    display: block;
+    margin: .6em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal; 
 }
 
 .ui-navbar li img{

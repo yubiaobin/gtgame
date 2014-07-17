@@ -24,6 +24,7 @@ require.config({
 　　　　　"underscore" :  "underscore",
 　　　　　"backbone"   :  "backbone-min",
         "SLslider"   :  "SLslider1.0",
+        "swipeIndex" :  "swipe.min",
 		"index"      :  "index"
 　　　　}
 });
@@ -33,7 +34,7 @@ require.config({
 
 
 
-require(['jquery', 'jquery-m','underscore', 'backbone','index'], function (){
+require(['jquery', 'swipeIndex', 'jquery-m','underscore', 'backbone','index'], function (){
 
 	
 /*
@@ -66,6 +67,20 @@ require(['jquery', 'jquery-m','underscore', 'backbone','index'], function (){
         window.APP = new TestView;
 */
 
+    var bullets = document.getElementById('position').getElementsByTagName('li');
+    var banner = Swipe(document.getElementById('mySwipe'), {
+        auto: 2000,
+        continuous: true,
+        disableScroll:false,
+        callback: function(pos) {
+            var i = bullets.length;
+            while (i--) {
+              bullets[i].className = ' ';
+            }
+            bullets[pos].className = 'cur';
+        }
+    });
+
 });
 
 
@@ -88,6 +103,7 @@ require(['jquery','SLslider1.0'], function($) {
     });
        
 
+$( "#mypanel" ).trigger( "updatelayout" );
 
 
 

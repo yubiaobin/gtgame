@@ -56,11 +56,15 @@
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/cordova.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/cordova_plugins.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/css \
+/Users/max/Development/workspace/gtgame/platforms/android/assets/www/game_detail.html \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/img \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/index.html \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/plugins \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/css/index.css \
+/Users/max/Development/workspace/gtgame/platforms/android/assets/www/img/1.jpg \
+/Users/max/Development/workspace/gtgame/platforms/android/assets/www/img/2.jpg \
+/Users/max/Development/workspace/gtgame/platforms/android/assets/www/img/3.jpg \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/img/footer_icon1.png \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/img/footer_icon2.png \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/img/footer_icon3.png \
@@ -72,6 +76,7 @@
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/main.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/require.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/SLslider1.0.js \
+/Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/swipe.min.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/js/underscore.js \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/plugins/com.danielcwilson.plugins.googleanalytics \
 /Users/max/Development/workspace/gtgame/platforms/android/assets/www/plugins/org.apache.cordova.device \
