@@ -26,6 +26,7 @@ require.config({
         "swipeIndex" :  "swipe.min",
 		"index"      :  "index"
 　　　　}
+
 });
 
 
@@ -33,9 +34,23 @@ require.config({
 
 
 
-require(['jquery', 'swipeIndex', 'jquery-m','underscore', 'backbone','index'], function (){
+require(['jquery', 
+        'swipeIndex', 
+        'jquery-m',
+        'underscore', 
+        'backbone',
+        'index'], function (){
 
-	
+
+    app.initialize();
+
+
+       
+
+    $( "#mypanel" ).trigger( "updatelayout" );
+
+            
+// Backbone框架控制首页数据读取脚本
 
 	// 定义模型类
     window.Test = Backbone.Model.extend({
@@ -66,6 +81,21 @@ require(['jquery', 'swipeIndex', 'jquery-m','underscore', 'backbone','index'], f
     window.APP = new TestView;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 首页幻灯片控制脚本
     var bullets = document.getElementById('position').getElementsByTagName('li');
     var banner = Swipe(document.getElementById('mySwipe'), {
         auto: 2000,
@@ -80,17 +110,18 @@ require(['jquery', 'swipeIndex', 'jquery-m','underscore', 'backbone','index'], f
         }
     });
 
+
+
+
+
+
+
 });
 
 
 require(['jquery','index'], function($) {
 
-	app.initialize();
 
-
-       
-
-    $( "#mypanel" ).trigger( "updatelayout" );
 
 
 

@@ -39,11 +39,28 @@ html {
 }
 
 
+/*----------------------custom_style----------------------*/
 
 
 
 
-/*ui_style*/
+
+/*首页轮播图样式*/
+.addWrap{width:100%;background:#fff;margin:auto;position:relative;}
+.addWrap .swipe{height:320px;overflow: hidden;visibility: hidden;position:relative;}
+.addWrap .swipe-wrap{overflow:hidden;position:relative;}
+.addWrap .swipe-wrap > div {float: left;width: 100%;position:relative;}
+
+#control-position{padding:0; margin-top:10px; text-align:center;}
+#control-position li{width:10px;height:10px;margin:0 3px;display:inline-block;-webkit-border-radius:5px;border-radius:5px;background-color:#AFAFAF;}
+#control-position li.cur{background-color:#333;}
+
+
+
+
+
+
+
 
 .ui-mobile .ui-page {
     min-height: 300px;
@@ -171,7 +188,9 @@ right: 999999.5625em;
 
 
 
-/*首页内容列表图片按钮样式*/
+
+
+/*首页内容列表图片按钮样式重写*/
 .gtgame_index_list > li > .ui-btn{
     min-height: 3.625em;
     /* padding-left: 6.25em; */
@@ -194,12 +213,6 @@ right: 999999.5625em;
 
 
 
-.ui-footer{
-    /*position:fixed ;*/
-/*    width:100% ;
-    left:0px;
-    bottom:0px;*/
-}
 .ui-footer .ui-navbar .ui-btn {
     border-top-width: 0;
     border-bottom-width: 0;
@@ -212,6 +225,8 @@ right: 999999.5625em;
 
 
 
+
+/*底部导航条宽度样式重写*/
 .ui-grid-c > .ui-block-a, .ui-grid-c > .ui-block-b, .ui-grid-c > .ui-block-c, .ui-grid-c > .ui-block-d {
     width: 24%;
     margin: 4px;
@@ -246,6 +261,8 @@ right: 999999.5625em;
     line-height:60px;
     left:62px;
 }
+
+
 .ui-navbar .footer_section1{background: #6cd5e0;}
 .ui-navbar .footer_section1 .ui-btn{
     background-color: #6cd5e0;
