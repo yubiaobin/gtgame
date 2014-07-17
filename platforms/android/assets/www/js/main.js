@@ -49,6 +49,10 @@ require(['jquery',
 
     $( "#mypanel" ).trigger( "updatelayout" );
 
+          
+
+
+
             
 // Backbone框架控制首页数据读取脚本
 
@@ -96,7 +100,7 @@ require(['jquery',
 
 
 // 首页幻灯片控制脚本
-    var bullets = document.getElementById('position').getElementsByTagName('li');
+    var bullets = document.getElementById('control-position').getElementsByTagName('li');
     var banner = Swipe(document.getElementById('mySwipe'), {
         auto: 2000,
         continuous: true,
@@ -119,11 +123,3 @@ require(['jquery',
 });
 
 
-require(['jquery','index'], function($) {
-
-
-
-
-
-
-});
